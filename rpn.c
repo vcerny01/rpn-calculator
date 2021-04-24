@@ -13,7 +13,7 @@ int top = -1;
 void push(int number);
 void pop(char ch); /* I don't need to include the char ch paramter, but it makes the code more readable*/
 void finish_stack(void);
-int make_number(char ch); /* char ch as a parameter for the reason described in pop*/
+int make_number(char ch);
 
 // functions
 int main(void)
