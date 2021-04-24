@@ -6,7 +6,6 @@
 int stack[1000];
 char ch;
 int top = -1;
-//int stack_length;
 
 
 // prototypes
@@ -61,7 +60,7 @@ int make_number(char ch)
         if (ch == ' '){
             break;
         }
-        // Could be done more affectivelly, but this method is easier to grasp and ASCII independent
+        // This could be done more effectively, but this method is easier to grasp and ASCII independent
         switch(ch){
             case '0': temp = 0; break;
             case '1': temp = 1; break;
