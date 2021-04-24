@@ -17,7 +17,7 @@ int make_number(char ch);
 // functions
 int main(void)
 {
-    printf("This ");
+    printf("This calculator works only with integers!!\n");
     printf("Enter an RPN expression: ");
     while(1){
         ch = getchar();
